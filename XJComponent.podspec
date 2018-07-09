@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 
   s.name         = "XJComponent"
   s.version      = "0.1.1"
-  s.summary      = "no description."
-  s.swift.version  = '>= 3.2'
+  s.summary      = "xiaojin frist commit"
+  s.swift_version = '3.2'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-   s.ios.deployment_target = "8.0"
+   s.ios.deployment_target = "9.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
