@@ -18,5 +18,13 @@
     "git": "https://github.com/jin284748511/XJComponent.git",
     "tag": "0.1.1"
   },
-  "source_files": "XJComponent/Classes/**/*"
+  "source_files": "XJComponent/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.2.0"
+    ],
+    "SnapKit": [
+
+    ]
+  }
 }
