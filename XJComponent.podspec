@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.name         = "XJComponent"
   s.version      = "0.1.1"
   s.summary      = "no description."
-  s.swift.version        = '4.0'
+  s.swift.version  = '>= 3.2'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
