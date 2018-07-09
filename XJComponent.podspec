@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XJComponent"
-  s.version      = "0.0.1"
+  s.version      = "0.1.1"
   s.summary      = "no description."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = 'XJComponent/Classes/**/*'
-  s.exclude_files = "Classes/Exclude"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 

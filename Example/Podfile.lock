@@ -11,7 +11,7 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble (~> 7.0)
   - Quick (1.2.0)
-  - XJComponent (0.1.0)
+  - XJComponent (0.0.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -36,7 +36,7 @@ SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  XJComponent: 8cc89df6273b016c9b8d06565ba734571fec2330
+  XJComponent: c08a4f6acbf9a3e8877ccaf11b1d7334f7485f04
 
 PODFILE CHECKSUM: dbb653c2d0caf6d296f81d53a08a2d37ee4dc82b
 

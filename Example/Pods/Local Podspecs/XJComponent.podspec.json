@@ -1,22 +1,22 @@
 {
   "name": "XJComponent",
-  "version": "0.1.0",
-  "summary": "A short description of XJComponent.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.1",
+  "summary": "no description.",
   "homepage": "https://github.com/jin284748511/XJComponent",
   "license": {
     "type": "MIT",
-    "file": "LICENSE"
+    "file": "FILE_LICENSE"
   },
   "authors": {
-    "jin284748511": "507626758@qq.com"
-  },
-  "source": {
-    "git": "https://github.com/jin284748511/XJComponent.git",
-    "tag": "0.1.0"
+    "金仕林": "507626758@qq.com"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XJComponent/Classes/**/*"
+  "source": {
+    "git": "https://github.com/jin284748511/XJComponent.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "XJComponent/Classes/**/*",
+  "exclude_files": "Classes/Exclude"
 }
