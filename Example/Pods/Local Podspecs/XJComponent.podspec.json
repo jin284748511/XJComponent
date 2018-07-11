@@ -19,6 +19,7 @@
     "tag": "0.1.1"
   },
   "source_files": "XJComponent/Classes/**/*",
+  "resources": "XJComponent/Assets/*.xcassets",
   "dependencies": {
     "RxCocoa": [
 
@@ -26,5 +27,11 @@
     "SnapKit": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "onepassword",
+      "source_files": "XJComponent/Classes/onepassword/**/*.{c,h,hh,m,mm}"
+    }
+  ]
 }

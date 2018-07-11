@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "OnePasswordExtension.h"
+#import "OnePasswordExtension.h"
 
 FOUNDATION_EXPORT double XJComponentVersionNumber;
 FOUNDATION_EXPORT const unsigned char XJComponentVersionString[];

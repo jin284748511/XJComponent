@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // 桥接文件测试
+        let xj_test = SwiftBridgingOCFile()
+        xj_test.xj_test1()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

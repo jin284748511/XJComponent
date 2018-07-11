@@ -18,6 +18,10 @@ PODS:
   - XJComponent (0.1.1):
     - RxCocoa
     - SnapKit
+    - XJComponent/onepassword (= 0.1.1)
+  - XJComponent/onepassword (0.1.1):
+    - RxCocoa
+    - SnapKit
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -48,7 +52,7 @@ SPEC CHECKSUMS:
   RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
-  XJComponent: d157407b591e6c568c77ac095f91039a94b655b7
+  XJComponent: 7c86064d14fae09935cf957586456ebd75e6a00b
 
 PODFILE CHECKSUM: dbb653c2d0caf6d296f81d53a08a2d37ee4dc82b
 

@@ -1,4 +1,4 @@
-use_frameworks!
+use_frameworks! # 把三方库打包成静态库供开发者使用
 
 target 'XJComponent_Example' do
   pod 'XJComponent', :path => '../'
