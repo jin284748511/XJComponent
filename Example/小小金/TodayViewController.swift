@@ -27,11 +27,28 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         xj_button2.backgroundColor = .red
         view.addSubview(xj_button2)
         
+        // iOS10 添加折叠按钮
+        if #available(iOSApplicationExtension 10.0, *) {
+            extensionContext?.widgetLargestAvailableDisplayMode = .expanded
+        } else {
+            // iOS8 、iOS9 上需要自己添加折叠按钮
+        }
+        
     }
     
     @objc func clickXJButton1() {
         var userDefaults = UserDefaults.standard
         print("小金扩展程序中的这些数据是\(userDefaults)")
+    }
+    
+    func widgetActiveDisplayModeDidChange(_ activeDisplayMode: NCWidgetDisplayMode, withMaximumSize maxSize: CGSize) {
+        // 由于 iOS8 、iOS9 上没有这个代理。需要对自己添加的按钮设置 target-action 然后进行修改
+        switch activeDisplayMode {
+        case .compact:
+            preferredContentSize = maxSize
+        case .expanded:
+            preferredContentSize = CGSize(width: 0.0, height: 200)
+        }
     }
     
     

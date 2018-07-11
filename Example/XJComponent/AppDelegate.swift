@@ -20,11 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-        let prefix = "XJComponent://action="
-        if (url.absoluteString.range(of: prefix) != nil) {
-            print("走了这里了吗")
+        let prefix = "XJComponent://"// 判断是否是可靠的地方传递过来的
+        if url.absoluteString.hasPrefix(prefix) {
+            // 参数过来了！ 做对应的事情
+            let a = UIAlertController(title: url.absoluteString, message: nil, preferredStyle: .alert)
+            a.addAction(UIAlertAction(title: "取消", style: .cancel, handler: nil))
+            self.window?.rootViewController?.present(a, animated: true, completion: nil)
+            return true
         }
-        return true
+        return false
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

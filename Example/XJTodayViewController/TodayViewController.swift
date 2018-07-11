@@ -14,6 +14,10 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let bgImageView = UIImageView(frame: self.view.bounds)
+        bgImageView.image = UIImage(named: "xiaojin01")
+        view.addSubview(bgImageView)
+        
         
         let xj_button1 = UIButton(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 30))
         xj_button1.setTitle("小金暂时不想写什么:就跳转百度吧", for: .normal)
