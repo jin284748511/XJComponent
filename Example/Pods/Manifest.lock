@@ -1,9 +1,11 @@
 PODS:
+  - Alamofire (4.7.3)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - Kingfisher (4.8.0)
   - Nimble (7.0.3)
   - Nimble-Snapshots (6.3.0):
     - Nimble-Snapshots/Core (= 6.3.0)
@@ -16,10 +18,14 @@ PODS:
   - RxSwift (4.2.0)
   - SnapKit (4.0.0)
   - XJComponent (0.1.1):
+    - Alamofire
+    - Kingfisher
     - RxCocoa
     - SnapKit
     - XJComponent/onepassword (= 0.1.1)
   - XJComponent/onepassword (0.1.1):
+    - Alamofire
+    - Kingfisher
     - RxCocoa
     - SnapKit
 
@@ -32,7 +38,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - FBSnapshotTestCase
+    - Kingfisher
     - Nimble
     - Nimble-Snapshots
     - Quick
@@ -45,15 +53,17 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
   RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
-  XJComponent: 7c86064d14fae09935cf957586456ebd75e6a00b
+  XJComponent: f1730c7fddb1ce961106456acfb8f920a60e9575
 
-PODFILE CHECKSUM: dbb653c2d0caf6d296f81d53a08a2d37ee4dc82b
+PODFILE CHECKSUM: e7e019c9c53548f5028238f68f8ba4002adedd9c
 
 COCOAPODS: 1.5.3

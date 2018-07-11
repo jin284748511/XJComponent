@@ -12,11 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        runBridgingTest()
+        
+        var userDefault = UserDefaults.standard
+        
+        print("现在是在主app中---看看这个数据是\(userDefault)")
+        
+        
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func runBridgingTest() {
         // 桥接文件测试
         let xj_test = SwiftBridgingOCFile()
         xj_test.xj_test1()
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {

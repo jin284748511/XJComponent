@@ -26,6 +26,12 @@
     ],
     "SnapKit": [
 
+    ],
+    "Alamofire": [
+
+    ],
+    "Kingfisher": [
+
     ]
   },
   "subspecs": [
