@@ -95,6 +95,11 @@ Pod::Spec.new do |s|
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
+  
+  
+  s.subspec 'onepassword' do |onepassword|
+      onepassword.source_files = 'XJComponent/Classes/onepassword/**/*.{c,h,hh,m,mm}'
+  end
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -106,7 +111,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resources = 'XJComponent/Assets/*.xcassets'
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -133,7 +138,7 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency "RxSwift", "~> 4.2.0"
+   s.dependency "RxCocoa"
    s.dependency "SnapKit"
 
 end

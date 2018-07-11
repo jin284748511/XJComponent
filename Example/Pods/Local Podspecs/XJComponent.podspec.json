@@ -20,8 +20,8 @@
   },
   "source_files": "XJComponent/Classes/**/*",
   "dependencies": {
-    "RxSwift": [
-      "~> 4.2.0"
+    "RxCocoa": [
+
     ],
     "SnapKit": [
 

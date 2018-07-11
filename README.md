@@ -1,1 +1,11 @@
 # XJComponent
+1.Observables
+(1)每个observable序列只是一个序列。observable VS Swift的关键优势sequence在于它还可以异步接受元素。这是RXSwift的核心
+(2)序列可以具有0个或更多个元素
+(3)一旦收到一个error或一个completed事件,序列就不能产生任何其他元素
+(4)当序列发送completed或error事件时，将释放计算序列元素的所有内部资源
+(5)要立即取消序列元素和免费资源的生成，请调用dispose返回的订阅。
+(6)如果您只是调用返回的方法Observable，则不执行序列生成且没有副作用。Observable只定义如何生成序列以及用于元素生成的参数。subscribe调用方法时开始生成序列
+
+2.观察结构
+RxCocoa已经内置支持志愿观测CGRect，CGSize和CGPoint结构
