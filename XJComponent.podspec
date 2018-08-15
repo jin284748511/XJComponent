@@ -98,7 +98,7 @@ Pod::Spec.new do |s|
   
   
   s.subspec 'popupViewController' do |popupView|
-      popupView.source_files = 'XJComponent/Classes/popupViewController/**/*.{c,h,hh,m,mm}'
+      popupView.source_files = 'XJComponent/Classes/popupViewController/*.{c,h,hh,m,mm}'
   end
 
 
