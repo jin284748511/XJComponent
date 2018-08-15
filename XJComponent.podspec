@@ -97,9 +97,9 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
   
   
-  #s.subspec 'onepassword' do |onepassword|
-  #    onepassword.source_files = 'XJComponent/Classes/onepassword/**/*.{c,h,hh,m,mm}'
-  #end
+  s.subspec 'popupViewController' do |popupView|
+      popupView.source_files = 'XJComponent/Classes/popupViewController/**/*.{c,h,hh,m,mm}'
+  end
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
