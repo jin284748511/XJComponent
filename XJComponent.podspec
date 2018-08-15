@@ -97,9 +97,9 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
   
   
-  s.subspec 'onepassword' do |onepassword|
-      onepassword.source_files = 'XJComponent/Classes/onepassword/**/*.{c,h,hh,m,mm}'
-  end
+  #s.subspec 'onepassword' do |onepassword|
+  #    onepassword.source_files = 'XJComponent/Classes/onepassword/**/*.{c,h,hh,m,mm}'
+  #end
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -111,7 +111,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = 'XJComponent/Assets/*.xcassets'
+  #s.resources = 'XJComponent/Assets/*.xcassets'
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -140,12 +140,12 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   
    #RX
-   s.dependency "RxCocoa"
+   #s.dependency "RxCocoa"
    #auto layout
-   s.dependency "SnapKit"
+   #s.dependency "SnapKit"
    #networking
-   s.dependency "Alamofire"
+   #s.dependency "Alamofire"
    #image cache
-   s.dependency "Kingfisher"
+   #s.dependency "Kingfisher"
 
 end

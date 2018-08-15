@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
 
@@ -15,9 +16,8 @@ class ViewController: UIViewController {
 //        runBridgingTest()
         
         var userDefault = UserDefaults.standard
-        
         print("现在是在主app中---看看这个数据是\(userDefault)")
-        
+
         
         // Do any additional setup after loading the view, typically from a nib.
     }
