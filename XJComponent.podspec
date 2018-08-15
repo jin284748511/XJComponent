@@ -94,17 +94,14 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'XJComponent/Classes/**/*'
+  #s.source_files  = 'XJComponent/Classes/**/*'
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
   
   
-  # s.subspec 'popupViewController' do |popupView|
-  #    popupView.source_files = 'XJComponent/Classes/popupViewController/**/*.{c,h,hh,m,mm}'
-  #end
-  s.subspec 'HMExtension' do |extension|
-      extension.source_files = 'XJComponent/Classes/popupViewController/**/*.{c,h,hh,m,mm}'
+  s.subspec 'popupViewController' do |popupView|
+      popupView.source_files = 'XJComponent/Classes/popupViewController/**/*.{c,h,hh,m,mm}'
   end
 
 
