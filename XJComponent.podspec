@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "XJComponent"
-  s.version      = "0.1.1"
-  s.summary      = "xiaojin frist commit"
+  s.name         = 'XJComponent'
+  s.version      = '0.1.1'
+  s.summary      = 'xiaojin frist commit'
   s.swift_version = '3.2'
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   #s.description  = <<-DESC
   #                 DESC
 
-  s.homepage     = "https://github.com/jin284748511/XJComponent"
+  s.homepage     = 'https://github.com/jin284748511/XJComponent'
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "金仕林" => "507626758@qq.com" }
+  s.author             = { '金仕林" => "507626758@qq.com' }
   # Or just: s.author    = "金仕林"
   # s.authors            = { "金仕林" => "507626758@qq.com" }
   # s.social_media_url   = "http://twitter.com/金仕林"
@@ -68,10 +68,13 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-   s.ios.deployment_target = "9.0"
+   s.ios.deployment_target = '8.0'
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
+  #s.requires_arc = true
+  #s.public_header_files = 'XJComponent/Classes/XJComponent.h'
+  #s.source_files = 'XJComponent/Classes/XJComponent.h'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +83,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => 'https://github.com/jin284748511/XJComponent.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/jin284748511/XJComponent.git', :tag => s.version.to_s ,:submodules => true }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,14 +94,14 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'XJComponent/Classes/**/*'
+  #s.source_files  = 'XJComponent/Classes/**/*'
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
   
   
-  s.subspec 'onepassword' do |onepassword|
-      onepassword.source_files = 'XJComponent/Classes/onepassword/**/*.{c,h,hh,m,mm}'
+  s.subspec 'popupViewController' do |popupView|
+      popupView.source_files = 'XJComponent/Classes/popupViewController/**/*.{c,h,hh,m,mm}'
   end
 
 
@@ -111,7 +114,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = 'XJComponent/Assets/*.xcassets'
+  #s.resources = 'XJComponent/Assets/*.xcassets'
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -140,12 +143,12 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   
    #RX
-   s.dependency "RxCocoa"
+   #s.dependency "RxCocoa"
    #auto layout
-   s.dependency "SnapKit"
+   #s.dependency "SnapKit"
    #networking
-   s.dependency "Alamofire"
+   #s.dependency "Alamofire"
    #image cache
-   s.dependency "Kingfisher"
+   #s.dependency "Kingfisher"
 
 end
